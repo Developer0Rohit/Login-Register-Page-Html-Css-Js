@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login & Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="a">
+    <div class="b">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social">
+            <img src="images/google.png">
+            <img src="images/fbpng.png">
+            <img src="images/twitter.png">
+        </div>
+        <form id="login"class="c">
+            <input type="text" class="d" placeholder="USER ID" required>
+            <input type="password" class="d" placeholder="Password" required>
+            <input type="checkbox"class="e" required><span>Remember Password</span>
+            <button type="submit" class="f" >Log In</button>
+        </form>
+        <div>
+            <form id="register" class="c">
+                <input type="email" class="d" placeholder="Email" required>
+                <input type="password" class="d" placeholder="Password" required>
+                <input type="password" class="d" placeholder="Confirm Password" required>
+                <input type="checkbox" class="e" required><span>I accept terms & condition</span>
+                <button type="submit" class="f">Register</button></form>
+        </div>
+        </div>
+        
+</div> 
+<script src="script.js"></script>
+
+</body>
+</html>
